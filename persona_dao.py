@@ -1,4 +1,4 @@
-from connection import Connection
+from cursor import PoolCursor
 from persona import Persona
 
 
@@ -10,7 +10,7 @@ class PersonaDAO:
 
     @classmethod
     def select(cls):
-        with Connection.get_curs() as cursor:
+        with PoolCursor() as cursor:
             cursor.execute(cls._SELECT)
             data = cursor.fetchall()
             personas = []
@@ -21,45 +21,38 @@ class PersonaDAO:
 
     @classmethod
     def insert(cls, persona):
-        with Connection.get_conn():
-            with Connection.get_curs() as cursor:
-                values = (persona.nombre, persona.apellido, persona.email)
-                cursor.execute(cls._INSERT, values)
-                return cursor.rowcount
+        with PoolCursor() as cursor:
+            values = (persona.nombre, persona.apellido, persona.email)
+            cursor.execute(cls._INSERT, values)
+            return cursor.rowcount
 
     @classmethod
     def update(cls, persona):
-        with Connection.get_conn():
-            with Connection.get_curs() as cursor:
-                values = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
-                cursor.execute(cls._UPDATE, values)
+        with PoolCursor() as cursor:
+            values = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
+            cursor.execute(cls._UPDATE, values)
 
     @classmethod
     def delete(cls, persona):
-        with Connection.get_conn():
-            with Connection.get_curs() as cursor:
-                values = (persona.id_persona,)
-                cursor.execute(cls._DELETE, values)
-                return cursor.rowcount
+        with PoolCursor() as cursor:
+            values = (persona.id_persona,)
+            cursor.execute(cls._DELETE, values)
+            return cursor.rowcount
 
 
 if __name__ == '__main__':
-    # INSERT TEST
-    # persona_test = Persona(
-    #     email='tchami@gmail.com', nombre='Tobias', apellido='Casa'
-    # )
-    # PersonaDAO.insert(persona_test)
-
     # SELECT TEST
-    # datos = PersonaDAO.select()
-    # for persona in datos:
-    #     log.info(persona)
+    personas = PersonaDAO.select()
+    for persona in personas:
+        print(persona)
+
+    # INSERT TEST
+    persona_test = Persona(email='gaga@gmail.com', nombre='Gabriel', apellido='Aguilar')
+    print(PersonaDAO.insert(persona_test))
 
     # UPDATE TEST
-    # persona_test = Persona(
-    #     email='jloria.com', nombre='Jefferson', apellido='Loria', id_persona=9
-    # )
-    # PersonaDAO.update(persona_test)
+    persona_test = Persona(email='gilo@gmail.com', nombre='Alvaro', apellido='Aguilar', id_persona=33)
+    PersonaDAO.update(persona_test)
 
     # DELETE TEST
-    PersonaDAO.delete(Persona(id_persona=3))
+    print(PersonaDAO.delete(Persona(id_persona=32)))

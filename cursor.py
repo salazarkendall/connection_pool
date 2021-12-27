@@ -22,3 +22,12 @@ class PoolCursor:
             self._connection.commit()
             log.debug('Transaction commit')
         Connection.release_conn(self._connection)
+
+
+if __name__ == '__main__':
+    with PoolCursor() as cursor:
+        log.debug('Dentro del bloque with')
+        cursor.execute('SELECT * FROM persona')
+        data = cursor.fetchall()
+        for persona in data:
+            print(persona)
