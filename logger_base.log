@@ -1,0 +1,684 @@
+09:57:57 AM: DEBUG [connection.py:27] Connected to: test_db
+09:57:57 AM: DEBUG [connection.py:40] Cursor open
+09:58:29 AM: DEBUG [persona.py:52] 
+            Id Persona: 1, Nombre: Kendall,
+            Apellido: Salazar, Email: Vargas
+        
+10:07:59 AM: DEBUG [connection.py:27] Connected to: test_db
+10:07:59 AM: DEBUG [connection.py:40] Cursor open
+10:10:35 AM: DEBUG [connection.py:27] Connected to: test_db
+10:10:49 AM: DEBUG [connection.py:40] Cursor open
+10:11:22 AM: DEBUG [connection.py:27] Connected to: test_db
+10:11:22 AM: DEBUG [connection.py:40] Cursor open
+10:16:00 AM: DEBUG [connection.py:27] Connected to: test_db
+10:16:00 AM: DEBUG [connection.py:40] Cursor open
+10:17:02 AM: DEBUG [connection.py:27] Connected to: test_db
+10:17:02 AM: DEBUG [connection.py:40] Cursor open
+10:17:37 AM: DEBUG [connection.py:27] Connected to: test_db
+10:17:37 AM: DEBUG [connection.py:40] Cursor open
+10:18:25 AM: DEBUG [connection.py:27] Connected to: test_db
+10:18:25 AM: DEBUG [connection.py:40] Cursor open
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 2, Nombre: Carlos,
+            Apellido: Mendez Perez, Email: pperez@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 3, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 4, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 5, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 6, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 7, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 8, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 9, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 10, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 11, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 12, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 15, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 16, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+10:18:25 AM: INFO [persona_dao.py:27] 
+            Id Persona: 17, Nombre: Marcela,
+            Apellido: Molina, Email: mmolina@gmail.com
+        
+10:18:32 AM: DEBUG [connection.py:27] Connected to: test_db
+10:18:32 AM: DEBUG [connection.py:40] Cursor open
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 2, Nombre: Carlos,
+            Apellido: Mendez Perez, Email: pperez@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 3, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 4, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 5, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 6, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 7, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 8, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 9, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 10, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 11, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 12, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 15, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 16, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+10:18:32 AM: INFO [persona_dao.py:27] 
+            Id Persona: 17, Nombre: Marcela,
+            Apellido: Molina, Email: mmolina@gmail.com
+        
+10:23:21 AM: DEBUG [connection.py:27] Connected to: test_db
+10:23:21 AM: DEBUG [connection.py:40] Cursor open
+10:27:00 AM: DEBUG [connection.py:27] Connected to: test_db
+10:27:27 AM: DEBUG [connection.py:27] Connected to: test_db
+10:27:27 AM: DEBUG [connection.py:40] Cursor open
+10:27:32 AM: DEBUG [connection.py:27] Connected to: test_db
+10:27:32 AM: DEBUG [connection.py:40] Cursor open
+10:27:58 AM: DEBUG [connection.py:27] Connected to: test_db
+10:27:58 AM: DEBUG [connection.py:40] Cursor open
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 2, Nombre: Carlos,
+            Apellido: Mendez Perez, Email: pperez@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 3, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 4, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 5, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 6, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 7, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 8, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 9, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 10, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 11, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 12, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 15, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 16, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 17, Nombre: Marcela,
+            Apellido: Molina, Email: mmolina@gmail.com
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 19, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 20, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+10:27:58 AM: INFO [persona_dao.py:40] 
+            Id Persona: 21, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:03:59 AM: DEBUG [connection.py:27] Connected to: test_db
+11:03:59 AM: DEBUG [connection.py:40] Cursor open
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 2, Nombre: Carlos,
+            Apellido: Mendez Perez, Email: pperez@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 3, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 4, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 5, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 6, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 7, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 8, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 9, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 10, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 11, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 12, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 15, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 16, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 17, Nombre: Marcela,
+            Apellido: Molina, Email: mmolina@gmail.com
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 19, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 20, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 21, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:03:59 AM: INFO [persona_dao.py:42] 
+            Id Persona: 22, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:05:51 AM: DEBUG [connection.py:27] Connected to: test_db
+11:05:51 AM: DEBUG [connection.py:40] Cursor open
+11:06:54 AM: DEBUG [connection.py:27] Connected to: test_db
+11:06:54 AM: DEBUG [connection.py:40] Cursor open
+11:07:15 AM: DEBUG [connection.py:27] Connected to: test_db
+11:07:27 AM: DEBUG [connection.py:27] Connected to: test_db
+11:07:27 AM: DEBUG [connection.py:40] Cursor open
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 2, Nombre: Carlos,
+            Apellido: Mendez Perez, Email: pperez@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 3, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 4, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 5, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 6, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 7, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 8, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 9, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 10, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 11, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 12, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 15, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 16, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 17, Nombre: Marcela,
+            Apellido: Molina, Email: mmolina@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 19, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 20, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 21, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 22, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 23, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 24, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:07:27 AM: INFO [persona_dao.py:42] 
+            Id Persona: 25, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:08:02 AM: DEBUG [connection.py:27] Connected to: test_db
+11:08:02 AM: DEBUG [connection.py:40] Cursor open
+11:10:53 AM: DEBUG [connection.py:27] Connected to: test_db
+11:10:53 AM: DEBUG [connection.py:40] Cursor open
+11:10:53 AM: DEBUG [persona_dao.py:37] Persona insertada: 
+            Id Persona: None, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:13:40 AM: DEBUG [connection.py:27] Connected to: test_db
+11:13:40 AM: DEBUG [connection.py:40] Cursor open
+11:14:47 AM: DEBUG [connection.py:27] Connected to: test_db
+11:14:47 AM: DEBUG [connection.py:40] Cursor open
+11:14:47 AM: DEBUG [connection.py:40] Cursor open
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 2, Nombre: Carlos,
+            Apellido: Mendez Perez, Email: pperez@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 3, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 4, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 5, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 6, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 7, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 8, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 9, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 10, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 11, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 12, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 15, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 16, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 17, Nombre: Marcela,
+            Apellido: Molina, Email: mmolina@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 19, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 20, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 21, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 22, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 23, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 24, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 25, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 26, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 27, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 28, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 29, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:14:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 30, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:15:47 AM: DEBUG [connection.py:27] Connected to: test_db
+11:15:47 AM: DEBUG [connection.py:40] Cursor open
+11:15:47 AM: DEBUG [connection.py:40] Cursor open
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 2, Nombre: Carlos,
+            Apellido: Mendez Perez, Email: pperez@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 3, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 4, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 5, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 6, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 7, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 8, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 9, Nombre: Jef,
+            Apellido: Loria, Email: jloria@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 10, Nombre: David,
+            Apellido: Otarola, Email: dotarolam@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 11, Nombre: Gabriel,
+            Apellido: Sandi, Email: gsandi@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 12, Nombre: Fabian,
+            Apellido: Vargas, Email: fvargas@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 15, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 16, Nombre: Osvaldo,
+            Apellido: Acosta, Email: oacosta@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 17, Nombre: Marcela,
+            Apellido: Molina, Email: mmolina@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 19, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 20, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 21, Nombre: Perro,
+            Apellido: fperro@gmail.com, Email: None
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 22, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 23, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 24, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 25, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 26, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 27, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 28, Nombre: Pedro,
+            Apellido: Najera, Email: pnajera@mail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 29, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 30, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:15:47 AM: INFO [persona_dao.py:44] 
+            Id Persona: 31, Nombre: Tobias,
+            Apellido: Casa, Email: tchami@gmail.com
+        
+11:21:35 AM: DEBUG [connection.py:27] Connected to: test_db
+11:21:35 AM: DEBUG [connection.py:40] Cursor open
+11:22:12 AM: DEBUG [connection.py:27] Connected to: test_db
+11:22:12 AM: DEBUG [connection.py:40] Cursor open
+11:22:54 AM: DEBUG [connection.py:27] Connected to: test_db
+11:22:54 AM: DEBUG [connection.py:40] Cursor open
+11:28:35 AM: DEBUG [connection.py:27] Connected to: test_db
+11:28:35 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:27] Connected to: test_db
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:29:31 AM: DEBUG [connection.py:40] Cursor open
+11:32:18 AM: DEBUG [connection.py:27] Connected to: test_db
+11:32:18 AM: DEBUG [connection.py:40] Cursor open
+11:33:22 AM: DEBUG [connection.py:27] Connected to: test_db
+11:33:22 AM: DEBUG [connection.py:40] Cursor open
+11:34:37 AM: DEBUG [connection.py:27] Connected to: test_db
+11:34:37 AM: DEBUG [connection.py:40] Cursor open
+11:01:16 AM: DEBUG [connection.py:28] Connected to: test_db
+11:01:16 AM: DEBUG [connection.py:41] Cursor open
+02:49:37 PM: INFO [connection.py:28] Pooling connection successfully
+02:50:14 PM: INFO [connection.py:28] Pooling connection successfully
+02:50:36 PM: INFO [connection.py:28] Pooling connection successfully
+02:51:56 PM: INFO [connection.py:27] Pooling connection successfully
+02:52:16 PM: INFO [connection.py:27] Pooling connection successfully
+02:52:16 PM: DEBUG [connection.py:38] Successfully connected via pool: <connection object at 0x0000022A0ECFF480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+02:52:16 PM: DEBUG [connection.py:38] Successfully connected via pool: <connection object at 0x0000022A10870480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:22:35 PM: INFO [connection.py:27] Successful pool connection
+01:22:35 PM: DEBUG [connection.py:38] Successfully connected via pool: <connection object at 0x000002266CEAF480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:22:35 PM: DEBUG [connection.py:38] Successfully connected via pool: <connection object at 0x000002266EA20480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:23:48 PM: INFO [connection.py:27] Successful pool connection
+01:23:48 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000002ED4A0FF480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:23:48 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000002ED4BC40480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:13 PM: INFO [connection.py:27] Successful pool connection
+01:24:13 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001B7D62EF480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:13 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001B7D7E30480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:14 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001B7D7E30AE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:14 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001B7D7E30BF0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:14 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001B7D7E30D00; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:19 PM: INFO [connection.py:27] Successful pool connection
+01:24:19 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000204BA49F480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:19 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000204BBFF0480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:19 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000204BBFF0AE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:19 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000204BBFF0BF0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+01:24:19 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000204BBFF0D00; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:24:03 PM: INFO [connection.py:27] Successful pool connection
+07:24:03 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000266F0C6F480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:24:03 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000266F2790480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:24:03 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000266F2790AE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:24:03 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000266F2790BF0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:24:03 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000266F2790D00; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:28:15 PM: INFO [connection.py:27] Successful pool connection
+07:28:15 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001DA8B012480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:28:15 PM: DEBUG [connection.py:44] Connection released
+07:28:15 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001DA8B012480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:28:15 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001DA8CB60480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:28:15 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001DA8CB60AE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:28:15 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001DA8CB60BF0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:28:15 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001DA8CB60D00; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:22 PM: INFO [connection.py:27] Successful pool connection
+07:34:22 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000157DAAB2480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:22 PM: DEBUG [connection.py:44] Connection released
+07:34:22 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000157DAAB2480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:22 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000157DC5F0480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:22 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000157DC5F0AE0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:22 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000157DC5F0BF0; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:34:22 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000157DC5F0D00; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:35:10 PM: INFO [connection.py:27] Successful pool connection
+07:35:10 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001ACF4D22480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+07:35:10 PM: DEBUG [connection.py:44] Connection released
+07:35:10 PM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001ACF4D22480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
