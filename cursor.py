@@ -7,12 +7,14 @@ class PoolCursor:
         self._connection = None
         self._cursor = None
 
+    # Python executes this code when enter into 'PoolCursor' and when we use the 'with' code block
     def __enter__(self):
         log.debug('Initializing with connection')
         self._connection = Connection.get_conn()
         self._cursor = self._connection.cursor()
         return self._cursor
 
+    # After a 'with' block, this code is executed
     def __exit__(self, exc_type, exc_val, exc_tb):
         log.debug('Executing exit method')
         if exc_val:

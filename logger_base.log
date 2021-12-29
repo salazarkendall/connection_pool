@@ -775,3 +775,184 @@
 11:09:08 AM: DEBUG [cursor.py:17] Executing exit method
 11:09:08 AM: DEBUG [cursor.py:23] Transaction commit
 11:09:08 AM: DEBUG [connection.py:44] Connection released
+10:34:39 AM: DEBUG [cursor.py:11] Initializing with connection
+10:34:39 AM: INFO [connection.py:27] Successful pool connection
+10:34:39 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000246B3A73480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:34:39 AM: DEBUG [cursor.py:17] Executing exit method
+10:34:39 AM: DEBUG [cursor.py:23] Transaction commit
+10:34:39 AM: DEBUG [connection.py:44] Connection released
+10:34:39 AM: DEBUG [cursor.py:11] Initializing with connection
+10:34:39 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000246B3A73480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:34:39 AM: DEBUG [cursor.py:17] Executing exit method
+10:34:39 AM: DEBUG [cursor.py:23] Transaction commit
+10:34:39 AM: DEBUG [connection.py:44] Connection released
+10:34:39 AM: DEBUG [cursor.py:11] Initializing with connection
+10:34:39 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000246B3A73480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:34:39 AM: DEBUG [cursor.py:17] Executing exit method
+10:34:39 AM: DEBUG [cursor.py:23] Transaction commit
+10:34:39 AM: DEBUG [connection.py:44] Connection released
+10:45:40 AM: DEBUG [cursor.py:11] Initializing with connection
+10:45:40 AM: INFO [connection.py:27] Successful pool connection
+10:45:40 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001975A1A2480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:45:40 AM: DEBUG [cursor.py:17] Executing exit method
+10:45:40 AM: DEBUG [cursor.py:23] Transaction commit
+10:45:40 AM: DEBUG [connection.py:44] Connection released
+10:45:58 AM: DEBUG [cursor.py:11] Initializing with connection
+10:45:58 AM: INFO [connection.py:27] Successful pool connection
+10:45:58 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000002416F213480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:45:58 AM: DEBUG [cursor.py:17] Executing exit method
+10:45:58 AM: DEBUG [cursor.py:23] Transaction commit
+10:45:58 AM: DEBUG [connection.py:44] Connection released
+10:46:06 AM: DEBUG [cursor.py:11] Initializing with connection
+10:46:06 AM: INFO [connection.py:27] Successful pool connection
+10:46:06 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001ED0C043480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:46:06 AM: DEBUG [cursor.py:17] Executing exit method
+10:46:06 AM: DEBUG [cursor.py:23] Transaction commit
+10:46:06 AM: DEBUG [connection.py:44] Connection released
+10:47:38 AM: DEBUG [cursor.py:11] Initializing with connection
+10:47:38 AM: INFO [connection.py:27] Successful pool connection
+10:47:38 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000167CFD73480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:47:38 AM: DEBUG [cursor.py:17] Executing exit method
+10:47:38 AM: DEBUG [cursor.py:23] Transaction commit
+10:47:38 AM: DEBUG [connection.py:44] Connection released
+10:47:45 AM: DEBUG [cursor.py:11] Initializing with connection
+10:47:45 AM: INFO [connection.py:27] Successful pool connection
+10:47:45 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x0000026BAA573480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:47:45 AM: DEBUG [cursor.py:17] Executing exit method
+10:47:45 AM: DEBUG [cursor.py:23] Transaction commit
+10:47:45 AM: DEBUG [connection.py:44] Connection released
+10:47:55 AM: DEBUG [cursor.py:11] Initializing with connection
+10:47:55 AM: INFO [connection.py:27] Successful pool connection
+10:47:55 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x0000014BBC263480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:47:55 AM: DEBUG [cursor.py:17] Executing exit method
+10:47:55 AM: DEBUG [cursor.py:23] Transaction commit
+10:47:55 AM: DEBUG [connection.py:44] Connection released
+10:48:32 AM: DEBUG [cursor.py:11] Initializing with connection
+10:48:32 AM: INFO [connection.py:27] Successful pool connection
+10:48:32 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x0000021E9E043480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:48:32 AM: DEBUG [cursor.py:17] Executing exit method
+10:48:32 AM: ERROR [cursor.py:20] Executing rollback: <class 'psycopg2.errors.UndefinedColumn'> <traceback object at 0x0000021E9FBE3EC0> column "s" does not exist
+LINE 1: SELECT * FROM characters WHERE character_id=%s
+                                                     ^
+
+10:48:32 AM: DEBUG [connection.py:44] Connection released
+10:48:49 AM: DEBUG [cursor.py:11] Initializing with connection
+10:48:49 AM: INFO [connection.py:27] Successful pool connection
+10:48:49 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001F12DB43480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:48:49 AM: DEBUG [cursor.py:17] Executing exit method
+10:48:49 AM: DEBUG [cursor.py:23] Transaction commit
+10:48:49 AM: DEBUG [connection.py:44] Connection released
+10:49:43 AM: DEBUG [cursor.py:11] Initializing with connection
+10:49:43 AM: INFO [connection.py:27] Successful pool connection
+10:49:43 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x0000029689F80480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:49:43 AM: DEBUG [cursor.py:17] Executing exit method
+10:49:43 AM: DEBUG [cursor.py:23] Transaction commit
+10:49:43 AM: DEBUG [connection.py:44] Connection released
+10:50:03 AM: DEBUG [cursor.py:11] Initializing with connection
+10:50:03 AM: INFO [connection.py:27] Successful pool connection
+10:50:03 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000002A77E705480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:50:03 AM: DEBUG [cursor.py:17] Executing exit method
+10:50:03 AM: DEBUG [cursor.py:23] Transaction commit
+10:50:03 AM: DEBUG [connection.py:44] Connection released
+10:50:20 AM: DEBUG [cursor.py:11] Initializing with connection
+10:50:20 AM: INFO [connection.py:27] Successful pool connection
+10:50:20 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001D2A30E5480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:50:20 AM: DEBUG [cursor.py:17] Executing exit method
+10:50:20 AM: DEBUG [cursor.py:23] Transaction commit
+10:50:20 AM: DEBUG [connection.py:44] Connection released
+10:50:39 AM: DEBUG [cursor.py:11] Initializing with connection
+10:50:39 AM: INFO [connection.py:27] Successful pool connection
+10:50:39 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001742EFF5480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:50:39 AM: DEBUG [cursor.py:17] Executing exit method
+10:50:39 AM: DEBUG [cursor.py:23] Transaction commit
+10:50:39 AM: DEBUG [connection.py:44] Connection released
+10:51:47 AM: DEBUG [cursor.py:11] Initializing with connection
+10:51:47 AM: INFO [connection.py:27] Successful pool connection
+10:51:47 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001FDA8455480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:51:47 AM: DEBUG [cursor.py:17] Executing exit method
+10:51:47 AM: DEBUG [cursor.py:23] Transaction commit
+10:51:47 AM: DEBUG [connection.py:44] Connection released
+10:52:08 AM: DEBUG [cursor.py:11] Initializing with connection
+10:52:08 AM: INFO [connection.py:27] Successful pool connection
+10:52:08 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000150892A4480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:52:08 AM: DEBUG [cursor.py:17] Executing exit method
+10:52:08 AM: DEBUG [cursor.py:23] Transaction commit
+10:52:08 AM: DEBUG [connection.py:44] Connection released
+10:52:08 AM: DEBUG [cursor.py:11] Initializing with connection
+10:52:08 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000150892A4480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:52:08 AM: DEBUG [cursor.py:17] Executing exit method
+10:52:08 AM: DEBUG [cursor.py:23] Transaction commit
+10:52:08 AM: DEBUG [connection.py:44] Connection released
+10:52:26 AM: DEBUG [cursor.py:11] Initializing with connection
+10:52:26 AM: INFO [connection.py:27] Successful pool connection
+10:52:26 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001FBD5F24480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:52:26 AM: DEBUG [cursor.py:17] Executing exit method
+10:52:26 AM: DEBUG [cursor.py:23] Transaction commit
+10:52:26 AM: DEBUG [connection.py:44] Connection released
+10:52:26 AM: DEBUG [cursor.py:11] Initializing with connection
+10:52:26 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001FBD5F24480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:52:26 AM: DEBUG [cursor.py:17] Executing exit method
+10:52:26 AM: DEBUG [cursor.py:23] Transaction commit
+10:52:26 AM: DEBUG [connection.py:44] Connection released
+10:53:02 AM: DEBUG [cursor.py:11] Initializing with connection
+10:53:02 AM: INFO [connection.py:27] Successful pool connection
+10:53:02 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001BA5C8B4480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:53:02 AM: DEBUG [cursor.py:17] Executing exit method
+10:53:02 AM: DEBUG [cursor.py:23] Transaction commit
+10:53:02 AM: DEBUG [connection.py:44] Connection released
+10:53:02 AM: DEBUG [cursor.py:11] Initializing with connection
+10:53:02 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001BA5C8B4480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:53:02 AM: DEBUG [cursor.py:17] Executing exit method
+10:53:02 AM: DEBUG [cursor.py:23] Transaction commit
+10:53:02 AM: DEBUG [connection.py:44] Connection released
+10:56:38 AM: DEBUG [cursor.py:11] Initializing with connection
+10:56:38 AM: INFO [connection.py:27] Successful pool connection
+10:56:38 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001C810835480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:56:38 AM: DEBUG [cursor.py:17] Executing exit method
+10:56:38 AM: ERROR [cursor.py:20] Executing rollback: <class 'AttributeError'> <traceback object at 0x000001C8123B4880> 'Character' object has no attribute 'rowcount'
+10:56:38 AM: DEBUG [connection.py:44] Connection released
+10:57:09 AM: DEBUG [cursor.py:11] Initializing with connection
+10:57:09 AM: INFO [connection.py:27] Successful pool connection
+10:57:09 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000002F77DBC5480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+10:57:09 AM: DEBUG [cursor.py:17] Executing exit method
+10:57:09 AM: DEBUG [cursor.py:23] Transaction commit
+10:57:09 AM: DEBUG [connection.py:44] Connection released
+11:03:33 AM: DEBUG [cursor.py:11] Initializing with connection
+11:03:33 AM: INFO [connection.py:27] Successful pool connection
+11:03:33 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001E1D0986480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+11:03:33 AM: DEBUG [cursor.py:17] Executing exit method
+11:03:33 AM: DEBUG [cursor.py:23] Transaction commit
+11:03:33 AM: DEBUG [connection.py:44] Connection released
+11:03:56 AM: DEBUG [cursor.py:11] Initializing with connection
+11:03:56 AM: INFO [connection.py:27] Successful pool connection
+11:03:56 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000002E2C0FD6480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+11:03:56 AM: DEBUG [cursor.py:17] Executing exit method
+11:03:56 AM: DEBUG [cursor.py:23] Transaction commit
+11:03:56 AM: DEBUG [connection.py:44] Connection released
+11:04:13 AM: DEBUG [cursor.py:11] Initializing with connection
+11:04:13 AM: INFO [connection.py:27] Successful pool connection
+11:04:13 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x000001E4EF556480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+11:04:13 AM: DEBUG [cursor.py:17] Executing exit method
+11:04:13 AM: DEBUG [cursor.py:23] Transaction commit
+11:04:13 AM: DEBUG [connection.py:44] Connection released
+11:04:56 AM: DEBUG [cursor.py:11] Initializing with connection
+11:04:56 AM: INFO [connection.py:27] Successful pool connection
+11:04:56 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x0000016077E76480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+11:04:56 AM: DEBUG [cursor.py:17] Executing exit method
+11:04:56 AM: DEBUG [cursor.py:23] Transaction commit
+11:04:56 AM: DEBUG [connection.py:44] Connection released
+11:06:26 AM: DEBUG [cursor.py:11] Initializing with connection
+11:06:26 AM: INFO [connection.py:27] Successful pool connection
+11:06:26 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x0000016E70207480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+11:06:26 AM: DEBUG [cursor.py:17] Executing exit method
+11:06:26 AM: ERROR [cursor.py:20] Executing rollback: <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x0000016E71DA7940> relation "charaters" does not exist
+LINE 1: DELETE FROM charaters WHERE character_id=4
+                    ^
+
+11:06:26 AM: DEBUG [connection.py:44] Connection released
+11:07:11 AM: DEBUG [cursor.py:11] Initializing with connection
+11:07:11 AM: INFO [connection.py:27] Successful pool connection
+11:07:11 AM: INFO [connection.py:38] Successfully connected via pool: <connection object at 0x00000170F4417480; dsn: 'user=postgres password=xxx dbname=test_db host=localhost port=5432', closed: 0>
+11:07:11 AM: DEBUG [cursor.py:17] Executing exit method
+11:07:11 AM: DEBUG [cursor.py:23] Transaction commit
+11:07:11 AM: DEBUG [connection.py:44] Connection released

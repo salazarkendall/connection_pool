@@ -17,6 +17,7 @@ class Connection:
 
     # Why a connection pool?
     # It simplify connection reuse for performance purposes
+    # Creates a pool connection with the database
     @classmethod
     def get_pool(cls):
         if cls._pool is None:
@@ -32,17 +33,20 @@ class Connection:
         else:
             return cls._pool
 
+    # Based on the pool, it creates a simple connection object that allow us to interact with the database
     @classmethod
     def get_conn(cls):
         connection = cls.get_pool().getconn()
         log.info(f'Successfully connected via pool: {connection}')
         return connection
 
+    # Self explanatory, it releases the connection we specify if we are not going to used it any more
     @classmethod
     def release_conn(cls, connection):
         cls.get_pool().putconn(connection)
         log.debug(f'Connection released')
 
+    # It closes all ongoing connections
     @classmethod
     def close_conn(cls):
         cls.get_pool().closeall()

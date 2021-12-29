@@ -47,8 +47,8 @@ if __name__ == '__main__':
         print(persona)
 
     # INSERT TEST
-    persona_test = Persona(email='gaga@gmail.com', nombre='Gabriel', apellido='Aguilar')
-    print(PersonaDAO.insert(persona_test))
+    # persona_test = Persona(email='gaga@gmail.com', nombre='Gabriel', apellido='Aguilar')
+    # print(PersonaDAO.insert(persona_test))
 
     # UPDATE TEST
     persona_test = Persona(email='gilo@gmail.com', nombre='Alvaro', apellido='Aguilar', id_persona=33)
